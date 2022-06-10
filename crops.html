@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crops</title>
+</head>
+<script src="https://kit.fontawesome.com/5a347a0dbc.js" crossorigin="anonymous"></script>
+<!--icons-->
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .divide p {
+        display: flex;
+        justify-content: center;
+        background-color: teal;
+        color: #fff;
+        font-size: 33px;
+        padding-bottom: 20px;
+    }
+
+    .contain2 {
+        margin: 3% 0%;
+    }
+
+    .contain2 .btn1 {
+        background-color: rgb(20, 172, 83);
+        color: white;
+        border-radius: 4px;
+        text-align: center;
+        margin-left: 46%;
+        padding: 10px 3px 7px 3px;
+    }
+
+    .contain2 .btn1:hover {
+        background-color: rgb(76, 199, 117);
+        border-color: black;
+    }
+
+    .contain3 {
+        display: flex;
+        text-align: center;
+        width: auto;
+        justify-content: center;
+    }
+
+    .contain3 .boxes3 {
+        text-align: center;
+        margin: 100px 65px 30px 65px;
+        padding: 160px 50px 20px 50px;
+        border-color: rgb(34, 33, 33);
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 1px;
+        /* box-shadow: -5px -5px 11px #7d7f81; */
+    }
+
+    .contain3 .boxes3 p {
+        color: black;
+        text-align: left;
+        line-height: 35px;
+        font-size: 18px;
+    }
+
+    .contain3 .boxes3 button {
+        background-color: rgba(11, 84, 243, 0.863);
+        margin: 25px 0px 25px 0px;
+        padding: 10px;
+        font-size: 20px;
+        color: #fff;
+        border-color: rgba(11, 84, 243, 0.863);
+    }
+
+    .contain3 .boxes3 .im img {
+        width: 250px;
+        height: 125px;
+        margin: -400px 0px 15px 0px;
+    }
+
+    .contain1 {
+        display: flex;
+        text-align: center;
+        width: auto;
+        justify-content: center;
+    }
+
+    .contain1 .boxes3 {
+        text-align: center;
+        margin: 100px 65px 30px 65px;
+        padding: 160px 50px 20px 50px;
+        border-color: rgb(34, 33, 33);
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 1px;
+    }
+
+    .contain1 .boxes3 p {
+        color: black;
+        text-align: left;
+        line-height: 35px;
+        font-size: 18px;
+    }
+
+    .contain1 .boxes3 button {
+        background-color: rgba(11, 84, 243, 0.863);
+        margin: 25px 0px 25px 0px;
+        padding: 10px;
+        font-size: 20px;
+        color: #fff;
+        border-color: rgba(11, 84, 243, 0.863);
+    }
+
+    .contain1 .boxes3 .im img {
+        width: 250px;
+        height: 125px;
+        margin: -400px 0px 15px 0px;
+    }
+
+    .contain1 .crop_name p {
+        text-align: center;
+    }
+
+    .contain3 .crop_name p {
+        text-align: center;
+    }
+
+    .contain1 div:first-child.boxes3 {
+        box-shadow: -5px -5px 8px #7d7f81;
+    }
+
+    .contain1 div:nth-child(2).boxes3 {
+        box-shadow: 0px -5px 4px #7d7f81;
+    }
+
+    .contain1 div:last-child.boxes3 {
+        box-shadow: 5px -5px 8px #7d7f81;
+    }
+
+    .contain3 div:first-child.boxes3 {
+        box-shadow: -5px 5px 8px #7d7f81;
+    }
+
+    .contain3 div:nth-child(2).boxes3 {
+        box-shadow: 0px 5px 4px #7d7f81;
+    }
+
+    .contain3 div:last-child.boxes3 {
+        box-shadow: 5px 5px 8px #7d7f81;
+    }
+</style>
+<header>
+    <div class="divide">
+        <p>Crops</p>
+    </div>
+</header>
+
+<body>
+    <div class="contain1">
+        <div class="boxes3">
+            <div class="im">
+                <img src="proimages/rice.png" alt="rice_image">
+            </div>
+            <div class="crop_name">
+                <p>Rice</p>
+            </div>
+            <!--change its alignment-->
+            <hr>
+            <p>Type of Crop:- Kharif,Rabi</p>
+            <p> Temperature:- ~24&deg;C</p>
+            <p>Rainfall:- ~150cm</p>
+            <p>Soil Type:- Clay or Loamy</p>
+            <button>MSP:- &#8377 1940/quintol</button>
+        </div>
+        <div class="boxes3">
+            <div class="im">
+                <img src="proimages/wheat.png" alt="wheat_image">
+            </div>
+            <div class="crop_name">
+                <p>Wheat</p>
+            </div>
+            <hr>
+            <p>Type of Crop:- Rabi</p>
+            <p> Temperature:- 17 - 20&deg;C</p>
+            <p>Rainfall:- 20-100cm</p>
+            <p>Soil Type:- Clay loam or Sandy Loam</p>
+            <button>MSP:- &#8377 2015/quintol</button>
+        </div>
+        <div class="boxes3">
+            <div class="im">
+                <img src="proimages/cotton.png" alt="cooton_image">
+            </div>
+            <div class="crop_name">
+                <p>Cotton</p>
+            </div>
+            <hr>
+            <p>Type of Crop:- Kharif</p>
+            <p> Temperature:- 21 - 30&deg;C</p>
+            <p>Rainfall:- 50 - 100cm</p>
+            <p>Soil Type:- Black soil</p>
+            <button>MSP:- &#8377 6025/quintol</button>
+        </div>
+    </div>
+    <div class="contain3">
+        <div class="boxes3">
+            <div class="im">
+                <img src="proimages/jute.png" alt="jute_image">
+            </div>
+            <div class="crop_name">
+                <p>Jute</p>
+            </div>
+            <hr>
+            <p>Type of Crop:- Zaid</p>
+            <p> Temperature:- 24 - 35&deg;C</p>
+            <p>Rainfall:- 125 - 200cm</p>
+            <p>Soil Type:- Sandy and Clay loam</p>
+            <button>MSP:- &#8377 4500/quintol</button>
+        </div>
+        <div class="boxes3">
+            <div class="im">
+                <img src="proimages/sugarcane.png" alt="sugarcane_image">
+            </div>
+            <div class="crop_name">
+                <p>Sugarcane</p>
+            </div>
+            <hr>
+            <p>Type of Crop:- Kharif,Rabi</p>
+            <p> Temperature:- 20 - 26&deg;C</p>
+            <p>Rainfall:- 75 - 150cm</p>
+            <p>Soil Type:- Clay or Black soil</p>
+            <button>MSP:- &#8377 275.50/quintol</button>
+        </div>
+        <div class="boxes3">
+            <div class="im">
+                <img src="proimages/maize1.png" alt="maize_image">
+            </div>
+            <div class="crop_name">
+                <p>Maize</p>
+            </div>
+            <hr>
+            <p>Type of Crop:- Kharif</p>
+            <p> Temperature:- 18 - 23&deg;C</p>
+            <p>Rainfall:- 60 - 110cm</p>
+            <p>Soil Type:- loamy sand</p>
+            <button>MSP:- &#8377 1870/quintol</button>
+        </div>
+    </div>
+    <div class="contain2">
+        <div>
+            <button class="btn1" onclick="window.location.href='farm.html'">Go To Home Page</button>
+        </div>
+    </div>
+
+</html>

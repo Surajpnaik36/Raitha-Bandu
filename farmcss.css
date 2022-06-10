@@ -1,0 +1,304 @@
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .bsbb {
+        box-sizing: border-box;
+    }
+
+    /*To avoid variations in padding and margin by the property of height and width*/
+
+    header div h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+
+    #head {
+        color: white;
+        background-color: rgb(62, 180, 137);
+        text-align: center;
+        height: 115px;
+        margin: -22px -10px;
+        padding-top: 23px;
+        padding-bottom: 30px;
+    }
+    .navbar1{
+        background-color:#2D333F ;
+        text-align: center;
+        margin-top: 22px;
+        margin-bottom: -11px;
+    }
+    .navbar1 ul{
+        display: inline-flex;
+        list-style: none;
+        color: #fff;
+    }
+    .navbar1 ul li{
+        margin: 25px 15px 5px 35px;
+        padding: 15px 15px 3px -1px;
+        box-sizing: border-box;
+    }
+    .navbar1 ul li a{
+        text-decoration: none;
+        color: #fff;
+        display: block;
+    }
+    .navbar1 ul li a:first-child{
+        padding-bottom: 7px;
+    }
+    .active, .navbar1 ul li a:hover{
+        background-color:#0bc7c7e5 ;
+        color: black;
+        border-radius: 3px;
+    }
+    .snav1{    
+        display: none;
+    }
+     .navbar1 ul li:hover .snav1{
+        display: block;
+        opacity: 0.9;
+        position: absolute;
+        background-color: #2D333F;
+        margin-top: 1px;
+        margin-left: 3px;
+    }
+    .navbar1 ul li:nth-child(5):hover .snav1{
+        display: block;
+        opacity: 0.9;
+        position: absolute;
+        background-color: #2D333F;
+        margin-top: 1px;
+        margin-left: -85px;
+    }
+    /*copy this*/.navbar1 ul li:nth-child(4):hover .snav1{
+        display: block;
+        opacity: 0.9;
+        position: absolute;
+        background-color: #2D333F;
+        margin-top: 1px;
+        margin-left: -85px;
+    }/*upto here*/
+    .navbar1 ul li:hover .snav1 ul{
+        display: block;
+        margin: 10px 5px 10px 5px;
+    }
+    .navbar1 ul li:hover .snav1 ul li{
+        width: 200px;
+        padding-top: 10px;
+        border-bottom: 1px dotted white;
+        background: transparent;
+        border-radius: 0;
+        text-align: center;
+        margin-left: -10px;
+    }
+    .navbar1 ul li:hover .snav1 ul li:last-child{
+        border-bottom: none;
+    }
+    .navbar1 ul li:hover .snav1 ul li a:hover{
+        color: #0bc7c7e5;
+        background-color:#2D333F;
+    }
+    #imag {
+        background-image: url(proimages/f2.jpg);
+        height: 680px;
+        width: 1500px;
+        margin-left: 10px;
+        margin-top: 12px;
+    }
+
+    .ff {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 300px 0px 160px 20px;
+    }
+    /*Main objective class declration*/
+    .mo {
+        font-size: 20px;
+        height: 85px;
+        background-color: #FFFFE0;
+        text-align: center;
+        margin-top: -24px;
+        padding: 15px;
+    }
+    .ata {
+        background-color: #2D333F;
+        color: #FEFEFE;
+        height: 500px;
+        width: auto;
+    }
+
+    .container {
+        display: flex;
+        padding-top: 5%;
+        height: 500px;
+        text-align: center;
+    }
+
+    #box1 {
+        font-size: 20px;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        height: 30px;
+        width: 2000px;
+        box-sizing: border-box;
+    }
+
+    .box2 {
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        height: 50px;
+        width: 3000px;
+        box-sizing: border-box;
+    }
+
+    .box2 ul li a {
+        text-decoration: none;
+        color: #FEFEFE;
+        text-align: justify;
+    }
+
+    .box2 ul li {
+        list-style: none;
+    }
+
+    .box2 ul li a:hover {
+        color: greenyellow;
+    }
+
+    .box3 {
+        text-align: justify;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        height: 20px;
+        width: 2000px;
+        box-sizing: border-box;
+    }
+
+    .box3 ul li {
+        list-style: none;
+    }
+
+    .box3 ul li a {
+        text-decoration: none;
+        color: #FEFEFE;
+    }
+    .box3 ul li:nth-child(2) a:nth-child(1):hover {
+        color: #8a3ab9;
+    }
+    .box3 ul li:nth-child(1) a:nth-child(1):hover {
+        color: #4267B2;
+    }
+    #box4 {
+        text-align: center;
+    }
+    .btn1 {
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+        margin-top: 5px;
+        color: #fff;
+        padding: 5px 0px 5px 0px;
+        border-radius: 5px;
+    }/*read ,ore buttun of intro*/
+
+    .btn1:hover {
+        background-color: #0a51bb;
+        border-color: #0a51bb;
+    }
+
+    .btn2 {
+        background-color: #6c757d;
+        border-color: #6c757d;
+        margin-top: 5px;
+        color: #fff;
+        padding: 5px 0px 5px 0px;
+        border-radius: 5px;
+    }/*read more button of about us*/
+
+    .btn2:hover {
+        background-color: #53575a;
+        border-color: #53575a;
+    }
+
+    .marpad {
+        margin-right: 1200px;
+        margin-top: -20px;
+    }
+
+    .wea1 {
+        margin-left: 1200px;
+        margin-top: -45px;
+        display: block;
+    }
+    .wea1 a {
+        text-decoration: none;
+        color: white;
+    }
+    #para {
+        font-size: 15px;
+        display: none;
+    }
+
+    #para1 {
+        display: none;
+    }
+
+    #b1 {
+        color: #fff;
+    }
+
+    #b2 {
+        color: #fff;
+    }
+
+    .col {
+        color: black;
+    }
+    .wrapper {
+        margin: 5% 0%;
+    }
+
+    .wrapper h1 {
+        font-size: 52px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    .container1 {
+        display: flex;
+        text-align: center;
+        width: auto;
+        justify-content: center;
+    }
+
+    .container1 .bo1 {
+        background-color: #2D333F;
+        margin: 10px 20px 50px 20px;
+        width: 300px;
+        padding: 25px 20px 50px 20px;
+        line-height: 20px;
+        position: relative;
+        border-radius: 7px;
+        box-shadow: -5px -8px 11px #7d7f81 ;
+    }
+
+    .container1 .bo1 h3 {
+        color: #81c644;
+        font-size: 20px;
+        margin-top: 18px;
+        /* to place image in this space*/
+    }
+
+    .container1 .bo1 p {
+        font-size: 15px;
+        margin: 12px 0px;
+        color: #fff;
+        font-style: italic;
+    }
+
+    .container1 .bo1 hr {
+        font-weight: bold;
+        color: #81c644;
+    }
+
+    .container1 .bo1 p span {
+        color: olive;
+    }
